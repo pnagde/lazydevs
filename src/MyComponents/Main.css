@@ -9,6 +9,11 @@
     src: url(/src/assest/gadugi-normal.ttf);
 }
 
+hr {
+    height: 1px;
+    background-color: aliceblue;
+}
+
 @font-face {
     font-family: gadugi-bold;
     src: url(/src/assest/gadugi-bold.ttf);
