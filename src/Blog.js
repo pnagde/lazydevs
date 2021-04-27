@@ -1,0 +1,33 @@
+import React from 'react'
+import Header from './MyComponents/Header'
+import Footer from './MyComponents/Footer'
+
+const Blog = props => {
+    let about={
+        height:"100vh",
+        minHeigth:"100vh",
+        padding:"0",
+        color:"white"
+    }
+    let center={
+        textAlign:"center"
+    }
+    return (
+        <div>
+            <div className="container-fluid" style={{padding:"0"}}>
+            <Header active="blog"/>
+            <div className="container-fluid" style={about}>
+                <h4 style={center}>Blog section</h4>
+            </div>
+            <Footer/>
+        </div>
+            
+        </div>
+    )
+}
+
+Blog.propTypes = {
+
+}
+
+export default Blog
