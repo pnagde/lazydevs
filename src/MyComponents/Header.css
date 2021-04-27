@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(-45deg, #060024, #0c0141, #8b8b8b);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+header {
+    padding: 10px 16px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+.navcolor {
+    color: white;
+}
+
+.mx-3 {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+}
+
+.navbar-brand>span {
+    color: #fbfbfb;
+    padding-right: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #8b8b8b;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fbfbfb;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    padding: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    padding-right: 30px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255 255 255 / 0%);
+    border-color: rgb(255 255 255 / 0%);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
